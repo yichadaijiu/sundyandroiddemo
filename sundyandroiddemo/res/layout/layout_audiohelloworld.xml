@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    
+    <Button android:layout_height="wrap_content" android:text="The First Play audio" android:id="@+id/buttonFirstAudio" android:layout_width="match_parent"></Button>
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Set Datasource of extenal card" android:id="@+id/ButtonAudioDatasource"></Button>
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Play Audio from Internet" android:id="@+id/ButtonAudioUri"></Button>
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Play Audio with AsyncPrepare" android:id="@+id/ButtonAsynchPrepare"></Button>
+</LinearLayout>

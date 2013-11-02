@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/scrollView1" android:layout_weight="2.64" android:scrollbars="vertical">
+<LinearLayout
+  android:id="@+id/linerLayout1"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:weightSum="1">
+  <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+  	<Button android:text="Button" android:id="@+id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+    <EditText android:text="EditText" android:id="@+id/editText1" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+  	<RadioButton android:text="RadioButton" android:id="@+id/radioButton1" android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>
+  </LinearLayout>
+    <TextView android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="RadioGroup"></TextView>
+    <RadioGroup android:id="@+id/radioGroup1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RadioButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="男" android:id="@+id/radio0" android:checked="true"></RadioButton>
+       
+    </RadioGroup>
+    <RadioButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="女" android:id="@+id/radio1"></RadioButton>
+    <ProgressBar android:id="@+id/progressBar1" android:layout_width="wrap_content" android:layout_height="wrap_content"></ProgressBar>
+    <CheckBox android:text="CheckBox" android:id="@+id/checkBox1" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+    <Spinner android:prompt="@string/UserName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/spinner1"></Spinner>
+    <DatePicker android:id="@+id/datePicker1" android:layout_width="wrap_content" android:layout_height="wrap_content"></DatePicker>
+    <DigitalClock android:text="DigitalClock" android:id="@+id/digitalClock1" android:layout_width="wrap_content" android:layout_height="wrap_content"></DigitalClock>
+    <AnalogClock android:id="@+id/analogClock1" android:layout_width="wrap_content" android:layout_height="wrap_content"></AnalogClock>
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:text="9-patch_Tiny"
+        android:textSize="8sp"
+        android:background="@drawable/simple_button"/>
+
+	<Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:text="9-Patch_Biiiiiiig text!"
+        android:textSize="30sp"
+        android:background="@drawable/simple_button"/>
+        <sundy.android.demo.uibase.CustomView android:id="@+id/customView" 
+        android:layout_width="match_parent" android:layout_height="50dp"/>
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<resources>  
+    <string name="red">Red</string>  
+    <string name="orange">Orange</string>  
+    <string name="yellow">Yellow</string>  
+    <string name="green">Green</string>  
+    <string name="blue">Blue</string>  
+    <string name="indigo">Indigo</string>  
+    <string name="violet">Violet</string>  
+    <string-array name="colorsArray">  
+        <item>#DC143C</item>  
+        <item>#FF8C00</item>  
+        <item>#FFFF00</item>  
+        <item>#7FFF00</item>  
+        <item>#0000FF</item>  
+        <item>#9370DB</item>  
+        <item>#5F9EA0</item> 
+        <item>#87FFFF</item>  
+        <item>#FF00FF</item>  
+        <item>#23702B</item>  
+        <item>#5F3A20</item>  
+    </string-array>  
+    <string-array name="spinnername">
+    	<item>Hello</item>
+    	<item>Sundy</item>
+    	<item>China</item>
+    </string-array>
+</resources>  

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <TextView android:text="Read From Assets" android:id="@+id/textViewReadFromAssets" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/editTextReadFromAssets">
+        <requestFocus></requestFocus>
+    </EditText>
+    <TextView android:text="Read From Raw" android:id="@+id/textViewReadFromRaw" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/editTextReadFromRaw"></EditText>
+    
+</LinearLayout>

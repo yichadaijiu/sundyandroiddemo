@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <ViewFlipper android:id="@+id/viewFlipper1" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:flipInterval="1000" android:inAnimation="@android:anim/fade_in" android:outAnimation="@android:anim/fade_out">
+        <FrameLayout android:layout_width="match_parent" android:id="@+id/frameLayout1" android:layout_height="match_parent">
+            <ImageView android:src="@drawable/gesture1" android:layout_height="match_parent" android:layout_width="match_parent"/>
+        </FrameLayout>
+        <FrameLayout android:id="@+id/frameLayout2" android:layout_width="match_parent" android:layout_height="match_parent">
+        	<ImageView android:src="@drawable/gesture2" android:layout_height="match_parent" android:layout_width="match_parent"/>
+        </FrameLayout>
+    	<FrameLayout android:id="@+id/frameLayout2" android:layout_width="match_parent" android:layout_height="match_parent">
+        	<ImageView android:src="@drawable/gesture3" android:layout_height="match_parent" android:layout_width="match_parent"/>
+        </FrameLayout>
+        <FrameLayout android:id="@+id/frameLayout2" android:layout_width="match_parent" android:layout_height="match_parent">
+        	<ImageView android:src="@drawable/gesture4" android:layout_height="match_parent" android:layout_width="match_parent"/>
+        </FrameLayout>
+    </ViewFlipper>
+  
+    
+</LinearLayout>

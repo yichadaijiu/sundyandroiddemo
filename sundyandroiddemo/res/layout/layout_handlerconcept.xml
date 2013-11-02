@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical">
+
+
+<Button android:text="Handler Lab1" android:id="@+id/buttonHandlerLab1" android:layout_width="fill_parent" android:layout_height="wrap_content"></Button>
+<Button android:text="Handler Lab2.1" android:id="@+id/buttonHandlerLab2" android:layout_width="fill_parent" android:layout_height="wrap_content"></Button>
+<Button android:text="Handler Lab2.2" android:id="@+id/buttonHandlerLab3" android:layout_width="fill_parent" android:layout_height="wrap_content"></Button>
+<Button android:text="Handler Lab3.1" android:id="@+id/buttonHandlerLab4" android:layout_width="fill_parent" android:layout_height="wrap_content"></Button>
+<Button android:text="Handler Lab3.2" android:id="@+id/buttonHandlerLab5" android:layout_width="fill_parent" android:layout_height="wrap_content"></Button>
+</LinearLayout>

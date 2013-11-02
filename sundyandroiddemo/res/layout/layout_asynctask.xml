@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:orientation="vertical"
+  android:layout_height="fill_parent">
+<EditText android:id="@+id/editTextState2" android:text="http://www.baidu.com" android:layout_height="wrap_content" android:layout_width="fill_parent"></EditText>
+<ProgressBar android:id="@+id/progress_bar2"
+    android:layout_width="200dip" android:layout_height="15dip"
+     android:layout_gravity="center"
+    android:max="100" style="?android:attr/progressBarStyleHorizontal"
+    android:progress="0"/>
+<TextView android:id="@+id/text_view2" android:layout_width="fill_parent" android:layout_height="240dip" android:scrollbars="vertical"></TextView>
+<Button android:id="@+id/update_button2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Update"/>
+</LinearLayout>

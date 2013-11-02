@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" android:text="今天天气不错"/>
+<Button android:text="Button" android:id="@+id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+<TextView android:text="TextView" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+<Button android:id="@+id/button23" android:text="你好，请点击我" android:layout_width="fill_parent" android:layout_height="wrap_content"></Button>
+<Button android:id="@+id/buttonDial" android:text="拨号" android:layout_width="fill_parent" android:layout_height="wrap_content"></Button>
+</LinearLayout>

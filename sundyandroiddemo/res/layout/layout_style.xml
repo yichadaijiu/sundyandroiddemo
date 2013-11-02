@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/SundyTheme"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <Button android:id="@+id/buttonStyle1" android:text="Button" style="@style/SundyTheme.Green"></Button>
+    <TextView android:id="@+id/textViewStyle1" android:text="TextView" style="@style/SundyTheme.Green"></TextView>
+    
+</LinearLayout>

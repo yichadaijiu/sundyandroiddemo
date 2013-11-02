@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  
+  
+  <TextView
+    style="@style/MyTextStyle1"
+    android:text="My Text Style1"
+  />
+    
+  <TextView
+    style="@style/MyTextStyle2"
+    android:text="My Text Style2"
+  />
+    
+  <TextView
+    style="@style/MyTextStyle3"
+    android:text="My Text Style3"
+  />
+    
+</LinearLayout>

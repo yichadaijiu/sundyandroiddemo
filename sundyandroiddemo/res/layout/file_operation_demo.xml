@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+   <TextView android:id="@+id/tvUserName"
+   android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="@string/UserName"
+    />
+    <EditText
+    android:id="@+id/etUserName"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:layout_toRightOf="@id/tvUserName"
+    />
+<Button
+	android:id="@+id/btnSaveUserName"	
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/Save"
+    android:layout_below="@id/etUserName"
+    />
+    <Button  
+    android:id="@+id/btnClearUserName"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/Clear"
+    android:layout_below="@id/btnSaveUserName"
+    />
+</RelativeLayout>

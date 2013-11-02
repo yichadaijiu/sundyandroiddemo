@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/itemAbout" android:title="Notification"></item>
+    <item android:id="@+id/itemDialog" android:title="AlertDialog"></item>
+    <item android:id="@+id/itemExit" android:title="Close"></item>
+    
+</menu>

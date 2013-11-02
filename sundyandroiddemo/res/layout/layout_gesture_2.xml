@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <android.gesture.GestureOverlayView android:id="@+id/gestureOverlayView1" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:gestureStrokeType="multiple"
+    android:eventsInterceptionEnabled="true"
+    >
+    	<ImageView android:id="@+id/imageView1" android:src="@drawable/gesture2" android:layout_height="match_parent" android:layout_width="match_parent"></ImageView>
+    </android.gesture.GestureOverlayView>
+</FrameLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" 
+  android:stretchColumns="1"
+  >
+    <TableRow android:layout_weight="1">
+        <TextView android:gravity="right" android:text="*用户名:"></TextView>
+        <EditText android:hint="input"/>
+        <TextView android:text="Less than 3 Chars"></TextView>
+    </TableRow>
+    <TableRow android:layout_weight="1">
+    	<TextView android:gravity="right" android:text="*密码:"></TextView>
+        <EditText android:hint="input"/>
+        <TextView android:text="请填写密码"></TextView>
+    </TableRow>
+    <TableRow android:layout_weight="1">
+    	<TextView android:gravity="right" android:text="*确认密码:"></TextView>
+        <EditText android:hint="input"/>
+        <TextView android:text="请再次输入密码"></TextView>
+    </TableRow>
+    <TableRow android:layout_weight="1">
+    	<TextView android:gravity="right" android:text="*Email:"></TextView>
+        <EditText android:hint="input"/>
+        <TextView android:text="请输入邮箱地址"></TextView>
+    </TableRow>
+    <View android:background="#666" android:layout_height="2dp" android:layout_marginBottom="10dp"/>
+    <TableRow android:layout_weight="1">
+    	<TextView android:gravity="right" android:text="*验证码:"></TextView>
+        <LinearLayout android:orientation="horizontal">
+        	<EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="input"/>
+        	<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="Next"></TextView>  
+        </LinearLayout>    
+        
+        
+    </TableRow>
+   
+    
+</TableLayout>

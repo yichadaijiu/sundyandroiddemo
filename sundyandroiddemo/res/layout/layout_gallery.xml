@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+ android:orientation="vertical"
+ xmlns:android="http://schemas.android.com/apk/res/android" android:weightSum="1">
+<ImageSwitcher android:inAnimation="@android:anim/fade_in"
+	android:outAnimation="@android:anim/fade_out" android:layout_width="fill_parent"
+	android:id="@+id/imageSwitcher1"
+	android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:layout_weight="1.03">
+</ImageSwitcher>
+
+<Gallery
+  
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:id="@+id/gallery1" android:layout_height="130dp">
+    
+</Gallery>
+</LinearLayout>
+

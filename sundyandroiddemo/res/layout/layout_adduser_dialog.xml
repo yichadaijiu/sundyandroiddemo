@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <TableRow android:gravity="center_vertical">
+        <TextView android:textSize="24sp" android:layout_weight="1" android:text="用户姓名：" android:layout_height="wrap_content"></TextView>
+        <EditText android:layout_weight="1" android:id="@+id/editTextUserName">
+            <requestFocus></requestFocus>
+        </EditText>
+    </TableRow>
+    <TableRow android:gravity="center_vertical">
+         <TextView android:textSize="24sp" android:layout_weight="1"  android:text="用户地址："></TextView>
+        <EditText android:layout_weight="1" android:id="@+id/editTextUserAddress"></EditText>
+    </TableRow>
+    
+</TableLayout>

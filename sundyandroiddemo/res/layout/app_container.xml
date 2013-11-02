@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sundy.android.demo.uiadv.shake_desk.ApplicationInfoContainer 
+	xmlns:android="http://schemas.android.com/apk/res/android"	
+	xmlns:myattr="http://schemas.android.com/apk/res/sundy.android.demo" 
+	
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    myattr:numColumns="3"/>

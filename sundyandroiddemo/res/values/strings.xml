@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="UserName">用户名：</string>
+    <string name="Save">记住用户名</string>
+    <string name="Clear">清除用户名</string>
+    <string name="title">Sigma Sensors</string>
+    <string name="myTextView1">Current Temprature：</string>
+    <string name="myTextView2">Current Magnetic x：</string>
+    <string name="myTextView3">Current Magnetic y：</string>
+    <string name="myTextView4">Current Magnetic z：</string>
+    <string name="myTextView5">Current Accelero x：</string>
+    <string name="myTextView6">Current Accelero y：</string>
+    <string name="myTextView7">Current Accelero z：</string>
+    <string name="myTextView8">Current Oraenttation x：</string>
+    <string name="myTextView9">Current Oraenttation y：</string>
+    <string name="myTextView10">Current Oraenttation z：</string>
+    <string name="myTextView11">Current Light：</string>
+    <string name="myTextView12">Current Proximity：</string>    
+    <string name="btnAccelerometerText">加速度感应</string>
+    
+    <string name="hello">Hello World, LauncherActivity!</string>
+    <string name="app_name">SundyAndroidBaseDemo</string>
+    <string name="process_activitymaintest">Lesson4/ActivitySavaState</string>
+    <string name="lesson2_helloworld">Stage2_Helloworld/HelloWorld</string>
+    <string name="lesson2_AssetsAndRaw">Stage2_Helloworld/AssetsAndRaw</string>
+    <string name="lesson4_StartNewActivity">Stage2_ActivityIntent/StartNewActivity</string>
+    <string name="lesson4_ActivityTransfer">Stage2_ActivityIntent/ActivityTransfer</string>
+    <string name="lesson5_MusicServiceActivity">Stage2_ServiceBase/MusicService</string>
+    <string name="lesson5_BeginServiceActivity">Stage2_ServiceBase/BeginService</string>
+    <string name="lesson6_ViewActivity">Stage2_UIBase/View</string>
+    <string name="lesson6_ViewGroupActivity">Stage2_UIBase/ViewGroup</string>
+    <string name="lesson6_MyListActivity">Stage2_UIBase/MyListView</string>
+    <string name="lesson6_SundyListActivity">Stage2_UIBase/MyListView2</string>
+    <string name="lesson6_MyLayoutActivity">Stage2_UIBase/MyTableActivity</string>
+    <string name="lesson6_MyGridViewActivity">Stage2_UIBase/MyGridViewActivity</string>
+    <string name="lesson6_MyGalleryActivity">Stage2_UIBase/MyGalleryActivity</string>
+    <string name="lesson6_MyDrawerActivity">Stage2_UIBase/MyDrawerActivity</string>
+    <string name="lesson6_FormWidgetActivity">Stage2_UIBase/FormWidgetActivity</string>
+    <string name="lesson6_BaseDialogActivity">Stage2_UIBase/BaseDialogActivity</string>
+    <string name="lesson6_FullScreenGalleryActivity">Stage2_UIBase/FullScreenGallery</string>
+    <string name="lesson6_NotificationSampleActivity">Stage2_UIBase/NotificationSample</string>
+    <string name="lesson6_StyleActivity">Stage2_UIBase/StyleSample</string>
+    
+    <string name="lesson4_LifecycleActivity">Stage2_ActivityIntent/LifecycleActivity</string>
+    
+    <string name="lesson7_SharePreferenceDemo">Stage2_Datastore/SharePreference</string>
+    <string name="lesson7_FileOperationDemo">Stage2_Datastore/FileOperation</string>
+    <string name="lesson7_SQLiteDemo">Stage2_Datastore/Sqlite</string>
+    <string name="lesson7_NetworkDemo">Stage2_Datastore/Network</string>
+    <string name="lesson8_ContentResolver">Stage2_ContentProvider/ContentResolver</string>
+    <string name="lesson9_SendBroadcast">Stage2_BroadcastReceiver/SendBroadcast</string>
+    
+    
+    <string name="java4android_instanceof">Stage1_Java4Android/Instanceof</string>
+	<string name="java4android_interationactivity">Stage1_Java4Android/Interation</string>
+	<string name="java4android_innerclassadv">Stage1_Java4Android/InnerClassAdv</string>
+	<string name="java4android_genericactivity">Stage1_Java4Android/Generics</string>
+	<string name="java4android_threadactivity">Stage1_Java4Android/MultiThread</string>
+	
+	<string name="multimedia_audiohelloworld">Stage3_Multimedia/AudioHelloworld</string>
+	<string name="process_lifecycle">Stage3_Thread_Async/Process Lifycycle</string>
+	<string name="process_threadconcept">Stage3_Thread_Async/Thread Concept</string>
+	<string name="process_handlerconcept">Stage3_Thread_Async/Handler-Must need it</string>
+	<string name="process_asynctask">Stage3_Thread_Async/AsyncTask-Extend</string>
+	<string name="process_wholeasync">Stage3_Thread_Async/WholeAsyncDemo</string>
+
+	
+	<string name="gesture_gestureshow1">Stage3_Gesture/GestureShow1</string>
+	<string name="gesture_gestureshow2">Stage3_Gesture/GestureShow2</string>
+	<string name="gesture_gestureshow3">Stage3_Gesture/GestureShow3</string>
+	<string name="gesture_gestureshow4">Stage3_Gesture/GestureShow4</string>
+	
+	<string name="sensor_activitymainlist">Stage3_Sensor/SensorList</string>
+	<string name="sensor_activitymain2">Stage3_Sensor/DeviceSensorsInfo</string>
+	<string name="sensor_activitymain">Stage3_Sensor/SensorMain</string>
+	<string name="sensor_sensorshow">Stage3_Sensor/SensorShow</string>
+	<string name="sensor_compassdemo">Stage3_Sensor/CompassDemo</string>
+	<string name="sensor_playeractivity">Stage3_Sensor/SensorPlayerDemo</string>
+	
+	<string name="maplocation_mymap">Stage3_MapLocation/MyGoogleMap</string>
+	<string name="maplocation_geodemo">Stage3_MapLocation/GeoDemo</string>
+	<string name="graphic_HelloGameItemControlActivity">Stage2_Graphic/HelloGameItemControl</string>
+	<string name="graphic_drawableresource">Stage2_Graphic/DrawableGetResource</string>
+	<string name="graphic_drawableresourcexml">Stage2_Graphic/DrawableGetResourceXML</string>
+	<string name="graphic_customdrawable">Stage2_Graphic/CustomDrawable</string>
+	<string name="sqlite_usermanager">Stage2_Datastore/UserManager</string>
+	<string name="contentprovider_contactcontract">Stage2_ContentProvider/ContactContracts</string>
+	
+	<string name="advui_shakedesk">Stage3_AdvanceUI/ShakeDeskSample</string>
+	<string name="style_simple">Stage3_AdvanceUI/Style/SimpleStyle</string>
+	<string name="animation_rotate3d">Stage3_AdvanceUI/Animation/Rotate3D</string>
+	<string name="animation_basetweenanimation">Stage3_AdvanceUI/Animation/BaseTweenAnimation</string>
+	<string name="style_bubbletheme">Stage3_AdvanceUI/Style/BubbleTheme</string>
+	<string name="style_blurtheme">Stage3_AdvanceUI/Style/BlurTheme</string>
+	<string name="skin_themeskin">Stage3_AdvanceUI/Skin/SkinTheme</string>
+	<string name="skin_layoutskin">Stage3_AdvanceUI/Skin/LayoutSkin</string>
+	<string name="performance_delayload">Stage3_AdvanceUI/Performance/DelayLoad</string>
+	<string name="performance_fastswitch">Stage3_AdvanceUI/Performance/FastSwitch</string>
+	<string name="animation_simpleanimation">Stage3_AdvanceUI/Animation/SimpleAnimation</string>
+	<string name="animation_fadeanimation">Stage3_AdvanceUI/Animation/FadeAnimation</string>
+	<string name="animation_baseframeanimation">Stage3_AdvanceUI/Animation/BaseFrameAnimation</string>
+	<string name="animation_simpledragsample">Stage3_AdvanceUI/Animation/SimpleDrag</string>
+	<string name="animation_viewflipper">Stage3_AdvanceUI/Animation/ViewFlipper</string>
+
+	<string name="widget_shortcut">SundyDemo</string>
+	<string name="widget_metadata">Stage3_Widget/MetaData</string>
+	
+</resources>

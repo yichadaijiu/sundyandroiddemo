@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:weightSum="1">
+    <TextView android:id="@+id/textView1" android:layout_height="wrap_content" android:layout_weight="0.05" android:layout_width="match_parent" android:text="Hello SecondActivity"></TextView>
+    <Button android:text="Button" android:layout_height="wrap_content" android:id="@+id/button24" android:layout_weight="0.04" android:layout_width="164dp"></Button>
+    <EditText android:id="@+id/editText23" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+    <Button android:text="Close" android:layout_height="wrap_content" android:id="@+id/button2Close" android:layout_weight="0.05" android:layout_width="176dp"></Button>
+</LinearLayout>

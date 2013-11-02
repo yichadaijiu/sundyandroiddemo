@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <TextView android:text="AlphaAnimation" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <ImageView android:src="@drawable/icon" android:id="@+id/imageViewAlphaAnimation" android:layout_width="52dp" android:layout_height="52dp"></ImageView>
+    <TextView android:text="RotateAnimation" android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <ImageView android:layout_width="52dp" android:src="@drawable/icon" android:id="@+id/imageViewRotateAnimation" android:layout_height="52dp"></ImageView>
+    <TextView android:text="ScaleAnimation" android:id="@+id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <ImageView android:layout_width="52dp" android:src="@drawable/icon" android:id="@+id/imageViewScaleAnimation" android:layout_height="52dp"></ImageView>
+    <TextView android:text="TranslateAnimation" android:id="@+id/TextView03" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <ImageView android:layout_width="52dp" android:src="@drawable/icon" android:id="@+id/imageViewTranslateAnimation" android:layout_height="52dp"></ImageView>
+    
+</LinearLayout>

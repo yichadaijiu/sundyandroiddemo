@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+ xmlns:android="http://schemas.android.com/apk/res/android"
+ android:scrollbarThumbVertical="@drawable/name" android:scrollbarTrackVertical="@drawable/button2"
+ android:id="@+id/scrollVIew1">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/linearLayout1"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Hello Sundy ,今天成都下雨了，晚上还在讲课 , Sundy的电话是：15608071871 , Email: sundyzlh@gmail.com , 官网:http://www.mobidever.com"
+    android:textColor="#666"
+    android:hint="no data"
+    android:textSize="12sp"
+    android:drawableLeft="@drawable/name"
+    android:ellipsize="marquee"
+    android:marqueeRepeatLimit="marquee_forever"
+    android:singleLine="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:drawablePadding="10dp"
+    android:autoLink="all"
+    android:textColorLink="#FF0000"
+    android:id="@+id/textView1"
+    />
+<Button android:background="@drawable/button_bg" android:text="Button" android:id="@+id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+<ToggleButton android:textOn="开" android:textOff="关" android:background="@drawable/button1" android:text="ToggleButton" android:id="@+id/toggleButton1" android:layout_width="wrap_content" android:layout_height="wrap_content"></ToggleButton>
+<EditText android:padding="20dp" android:drawablePadding="10dp" android:drawableLeft="@drawable/name" android:background="@drawable/edittext_shape" android:hint="请输入内容" android:inputType="number" android:layout_width="match_parent" android:id="@+id/editText1" android:layout_height="wrap_content">
+    <requestFocus></requestFocus>
+</EditText>
+<AutoCompleteTextView android:layout_width="match_parent" android:text="AutoCompleteTextView" android:id="@+id/autoCompleteTextView1" android:layout_height="wrap_content"></AutoCompleteTextView>
+<DatePicker android:id="@+id/datePicker1" android:layout_width="wrap_content" android:layout_height="wrap_content"></DatePicker>
+<ImageView android:id="@+id/imageView1" android:layout_height="wrap_content" android:src="@drawable/btn_playback_small_normal" android:layout_width="wrap_content"></ImageView>
+<ImageButton android:clickable="true" android:background="#00FF0000" android:id="@+id/imageButton1" android:layout_height="wrap_content" android:src="@drawable/button_selector" android:layout_width="wrap_content"></ImageButton>
+
+<CheckBox android:id="@+id/checkBox1" android:layout_height="wrap_content" android:text="你是人么？" android:layout_width="wrap_content"></CheckBox>
+<RatingBar android:rating="3" android:id="@+id/ratingBar1" android:stepSize="1.0" style="@android:style/Widget.RatingBar" android:layout_height="wrap_content" android:numStars="5" android:layout_width="wrap_content"></RatingBar>
+<RadioGroup android:id="@+id/radioGroup1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <RadioButton android:button="@null" android:drawableLeft="@drawable/name" android:id="@+id/radio0" android:text="RadioButton" android:layout_height="wrap_content" android:layout_width="wrap_content" android:checked="true"></RadioButton>
+    <RadioButton android:button="@null" android:drawableRight="@android:drawable/btn_radio" android:id="@+id/radio1" android:text="RadioButton" android:layout_height="wrap_content" android:layout_width="wrap_content"></RadioButton>
+    <RadioButton android:button="@null" android:drawableRight="@android:drawable/btn_star" android:id="@+id/radio2" android:layout_height="wrap_content" android:layout_width="wrap_content"></RadioButton>
+</RadioGroup>
+
+<Spinner android:prompt="@string/hello" android:layout_height="wrap_content" android:id="@+id/spinner1" android:layout_width="match_parent"></Spinner>
+<ProgressBar style="@android:style/Widget.ProgressBar.Horizontal" android:progress="30" android:secondaryProgress="50" android:layout_height="wrap_content" android:id="@+id/progressBar1" android:layout_width="264dp"></ProgressBar>
+<SeekBar android:thumb="@drawable/name" android:progress="10" android:id="@+id/seekBar1" android:layout_height="wrap_content" android:layout_width="match_parent"></SeekBar>
+<QuickContactBadge android:src="@drawable/name" android:id="@+id/quickContactBadge1" android:layout_width="wrap_content" android:layout_height="wrap_content"></QuickContactBadge>
+<GridView android:id="@+id/gridView1" android:layout_height="120dp" android:layout_width="match_parent" 
+android:numColumns="3"></GridView>
+
+
+</LinearLayout>
+</ScrollView>

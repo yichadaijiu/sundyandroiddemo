@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="0" android:weightSum="1">
+    <TableRow>
+        <TextView
+            android:text="open"
+            android:padding="3dip" 
+            android:background="#FFF"/>
+        <TextView
+        android:text="Close"
+        android:padding="3dip" 
+        android:background="#000AAA"/>
+        <TextView
+            android:text="table_layout_4_open_shortcut"
+            android:gravity="right"
+            android:padding="3dip" 
+            android:background="#666FFF"/>
+        
+           
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="save"
+            android:padding="3dip"
+            android:background="#FFF" />
+            <TextView
+        android:text="Close"
+        android:padding="3dip" 
+        android:background="#000AAA"/>
+        <TextView
+            android:text="table_layout_4_save_shortcut"
+            android:gravity="right"
+            android:padding="3dip" 
+            android:background="#666FFF"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="save"
+            android:padding="3dip"
+            android:background="#FFF" />
+            <TextView
+        android:text="Close"
+        android:padding="3dip" 
+        android:background="#000AAA"/>
+        <TextView
+            android:text="table_layout_4_save_shortcut"
+            android:gravity="right"
+            android:padding="3dip" 
+            android:background="#666FFF"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="save"
+            android:padding="3dip"
+            android:background="#FFF" />
+            <TextView
+        android:text="Close"
+        android:padding="3dip" 
+        android:background="#000AAA"/>
+        <TextView
+            android:text="table_layout_4_save_shortcut"
+            android:gravity="right"
+            android:padding="3dip" 
+            android:background="#666FFF"/>
+    </TableRow>
+</TableLayout>

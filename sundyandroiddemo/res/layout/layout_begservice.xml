@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <Button android:text="Start BeginService" android:id="@+id/buttonStartBeginService" android:layout_width="match_parent" android:layout_height="wrap_content"></Button>
+    <Button android:text="Bind BeginService" android:id="@+id/buttonBindBeginService" android:layout_width="match_parent" android:layout_height="wrap_content"></Button>
+    <Button android:text="Start IntentService" android:layout_height="wrap_content" android:id="@+id/buttonStartIntentService" android:layout_width="match_parent"></Button>
+    
+</LinearLayout>

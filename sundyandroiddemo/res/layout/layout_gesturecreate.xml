@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:weightSum="1">
+    <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:weightSum="1">
+        <EditText android:id="@+id/editTextCreate" android:inputType="textPersonName" android:layout_width="182dp" android:layout_height="wrap_content" android:layout_weight="0.91">
+            <requestFocus></requestFocus>
+        </EditText>
+        <Button android:id="@+id/buttonCreateGesture" android:layout_height="wrap_content" android:text="Create Gesture" android:layout_width="wrap_content"></Button>
+    </LinearLayout>
+    <android.gesture.GestureOverlayView android:layout_width="match_parent" android:id="@+id/gestureOverlayViewCreate" android:layout_height="match_parent"></android.gesture.GestureOverlayView>
+    
+</LinearLayout>

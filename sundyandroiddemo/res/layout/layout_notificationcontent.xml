@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dp" >
+    <ImageView android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/icon"
+        android:layout_marginRight="10dp" android:layout_height="match_parent"/>
+    <TextView android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/image"
+        android:text="Notification Description"
+        android:typeface="serif"
+        />
+    <TextView android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/image"
+        android:layout_below="@id/title"
+        android:text="Notice that the two TextView elements include the style attribute. 
+        It's important that you use style resources for the text in your custom notifications, 
+        because the background color of the notification can vary across different devices and platform versions. "
+        />
+</RelativeLayout>
