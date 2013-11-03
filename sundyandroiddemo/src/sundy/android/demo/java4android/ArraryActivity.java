@@ -17,7 +17,7 @@ import android.widget.Toast;
 
 public class ArraryActivity extends ListActivity {
 
-	String[] cities = {"³É¶¼","Ö£Öİ","±±¾©","ÉÏº£"}  ;
+	String[] cities = {"æˆéƒ½","éƒ‘å·","åŒ—äº¬","ä¸Šæµ·"}  ;
 	ArrayAdapter<String> adapter ;
 	
 	
@@ -34,7 +34,7 @@ public class ArraryActivity extends ListActivity {
 					int arg2, long arg3) {
 				// TODO Auto-generated method stub
 				
-				Toast.makeText(ArraryActivity.this,"Ñ¡ÖĞÁË£º"+arg0.getSelectedItemId(), 2000).show() ;
+				Toast.makeText(ArraryActivity.this,"é€‰ä¸­äº†ï¼š"+arg0.getSelectedItemId(), 2000).show() ;
 			}
 
 			@Override
@@ -50,7 +50,7 @@ public class ArraryActivity extends ListActivity {
 			@Override
 			public void onItemClick(AdapterView<?> arg0, View arg1, int arg2,
 					long arg3) {
-				Toast.makeText(ArraryActivity.this,"Ñ¡ÖĞÁË::£º"+arg2, 2000).show() ;
+				Toast.makeText(ArraryActivity.this,"é€‰ä¸­äº†::ï¼š"+arg2, 2000).show() ;
 				// TODO Auto-generated method stub
 				
 			}

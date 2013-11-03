@@ -39,7 +39,7 @@ public class ThreadActivity extends Activity {
 		@Override
 		public void run()
 		{
-			Log.i(CommonConstants.LOGCAT_TAG_NAME,getName() + "Ïß³ÌÔËĞĞ¿ªÊ¼£¡");
+			Log.i(CommonConstants.LOGCAT_TAG_NAME,getName() + "çº¿ç¨‹è¿è¡Œå¼€å§‹ï¼");
 			
 			for (int i = 0; i < 10; i++)
 			{
@@ -66,7 +66,7 @@ public class ThreadActivity extends Activity {
 		@Override
 		public void run()
 		{
-			Log.i(CommonConstants.LOGCAT_TAG_NAME,Thread.currentThread().getName() + " Ïß³ÌÔËĞĞ¿ªÊ¼£¡");
+			Log.i(CommonConstants.LOGCAT_TAG_NAME,Thread.currentThread().getName() + " çº¿ç¨‹è¿è¡Œå¼€å§‹ï¼");
 	        for (int i = 0; i < 10; i++) {
 	        	Log.i(CommonConstants.LOGCAT_TAG_NAME,i + " " + Thread.currentThread().getName());
 	            try {
@@ -76,7 +76,7 @@ public class ThreadActivity extends Activity {
 	            }
 	        }
 	        
-	        Log.i(CommonConstants.LOGCAT_TAG_NAME,Thread.currentThread().getName() + " Ïß³ÌÔËĞĞ½áÊø£¡");
+	        Log.i(CommonConstants.LOGCAT_TAG_NAME,Thread.currentThread().getName() + " çº¿ç¨‹è¿è¡Œç»“æŸï¼");
 			
 		}
 
@@ -98,7 +98,7 @@ public class ThreadActivity extends Activity {
 		{
 			for (int i = 0; i < 100; i++)
 			{
-				//²»¼ÓÍ¬²½Ëø¾Í¿ÉÄÜ»áµ¼ÖÂÍ¬Ò»ÕÅÆ±±»ÂôÁËÁ½´ÎµÄÇé¿ö£¬ÌåÑéÍ¨¹ıÍ¬²½´úÂë¿éÊµÏÖËø
+				//ä¸åŠ åŒæ­¥é”å°±å¯èƒ½ä¼šå¯¼è‡´åŒä¸€å¼ ç¥¨è¢«å–äº†ä¸¤æ¬¡çš„æƒ…å†µï¼Œä½“éªŒé€šè¿‡åŒæ­¥ä»£ç å—å®ç°é”
 				synchronized (this)
 				{
 					Sale();
@@ -106,7 +106,7 @@ public class ThreadActivity extends Activity {
 			}
 		}
 
-		//ÕâÊÇÒ»¸öÍ¬²½·½·¨£¬ÌåÑéÍ¨¹ıÍ¬²½·½·¨ÊµÏÖËø
+		//è¿™æ˜¯ä¸€ä¸ªåŒæ­¥æ–¹æ³•ï¼Œä½“éªŒé€šè¿‡åŒæ­¥æ–¹æ³•å®ç°é”
 		//public synchronized void Sale()
 		
 		
@@ -115,7 +115,7 @@ public class ThreadActivity extends Activity {
 		{
 			if(m_Tickets > 0)
 			{
-				Log.i(CommonConstants.LOGCAT_TAG_NAME,"ÊÛÆ±µã" + Thread.currentThread().getName() + "Âô³öÁËµÚ" + m_Tickets + "ÕÅÆ±");
+				Log.i(CommonConstants.LOGCAT_TAG_NAME,"å”®ç¥¨ç‚¹" + Thread.currentThread().getName() + "å–å‡ºäº†ç¬¬" + m_Tickets + "å¼ ç¥¨");
 				m_Tickets--;
 				
 				try {
@@ -142,7 +142,7 @@ public class ThreadActivity extends Activity {
 			@Override
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
-				Log.i(CommonConstants.LOGCAT_TAG_NAME,Thread.currentThread().getName() + " Ïß³ÌÔËĞĞ¿ªÊ¼£¡");
+				Log.i(CommonConstants.LOGCAT_TAG_NAME,Thread.currentThread().getName() + " çº¿ç¨‹è¿è¡Œå¼€å§‹ï¼");
 				MyRunnable _MyRunnable = new MyRunnable();
 		        Thread _Thread1 = new Thread(_MyRunnable);
 		        
@@ -151,7 +151,7 @@ public class ThreadActivity extends Activity {
 		        Thread _Thread2 = new Thread(_MyRunnable);
 		        _Thread1.start();
 		        _Thread2.start();
-		        Log.i(CommonConstants.LOGCAT_TAG_NAME,Thread.currentThread().getName() + " Ïß³ÌÔËĞĞ½áÊø£¡");
+		        Log.i(CommonConstants.LOGCAT_TAG_NAME,Thread.currentThread().getName() + " çº¿ç¨‹è¿è¡Œç»“æŸï¼");
 			}
 		}) ;
 		
@@ -162,10 +162,10 @@ public class ThreadActivity extends Activity {
 			@Override
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
-				Log.i(CommonConstants.LOGCAT_TAG_NAME,Thread.currentThread().getName() + " Ïß³ÌÔËĞĞ¿ªÊ¼£¡");
+				Log.i(CommonConstants.LOGCAT_TAG_NAME,Thread.currentThread().getName() + " çº¿ç¨‹è¿è¡Œå¼€å§‹ï¼");
 				new MyThread("A").start();
 		        new MyThread("B").start();
-		        Log.i(CommonConstants.LOGCAT_TAG_NAME,Thread.currentThread().getName() + " Ïß³ÌÔËĞĞ½áÊø£¡");
+		        Log.i(CommonConstants.LOGCAT_TAG_NAME,Thread.currentThread().getName() + " çº¿ç¨‹è¿è¡Œç»“æŸï¼");
 			}
 		}) ;
 		

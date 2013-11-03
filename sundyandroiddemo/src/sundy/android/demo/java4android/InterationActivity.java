@@ -40,7 +40,7 @@ public class InterationActivity extends Activity {
 		for(int i=0 ; i<aColors.length;i++)
 		{
 			tempTextView = new TextView(this) ;
-			tempTextView.setText("ÑÕÉ«²âÊÔ") ;
+			tempTextView.setText("é¢œè‰²æµ‹è¯•") ;
 			tempTextView.setBackgroundColor(Color.parseColor(aColors[i])) ;
 			layoutRoot.addView(tempTextView, lpWW) ;
 		}

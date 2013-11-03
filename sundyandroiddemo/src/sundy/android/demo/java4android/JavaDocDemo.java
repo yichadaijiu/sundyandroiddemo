@@ -13,12 +13,12 @@ import java.util.Observer;
 import android.graphics.Bitmap;
 
 /**
- * JavaDoc µÄ²âÊÔÀà£¬ Ö»ÓĞÕâ¸öÀàÓÃ
+ * JavaDoc çš„æµ‹è¯•ç±»ï¼Œ åªæœ‰è¿™ä¸ªç±»ç”¨
  * @author Sundy Zhang
  * @version 1.0
  * @date 2011-9-13
  * @since java 6
- * @description javadocµÄ²âÊÔÀà
+ * @description javadocçš„æµ‹è¯•ç±»
  * {@link=http://www.sun.com"}
  *
  */

@@ -44,7 +44,7 @@ public class InstanceofActivity extends Activity {
 						@Override
 						public void onClick(View arg0) {
 							// TODO Auto-generated method stub
-							Toast.makeText(InstanceofActivity.this, "Äãµã»÷µÄÊÇ°´Å¥", 3000).show()  ;
+							Toast.makeText(InstanceofActivity.this, "ä½ ç‚¹å‡»çš„æ˜¯æŒ‰é’®", 3000).show()  ;
 							
 							
 						}
@@ -58,7 +58,7 @@ public class InstanceofActivity extends Activity {
 						@Override
 						public void onClick(View arg0) {
 							// TODO Auto-generated method stub
-							Toast.makeText(InstanceofActivity.this, "Äãµã»÷µÄÊÇÎÄ±¾", 3000).show()  ;
+							Toast.makeText(InstanceofActivity.this, "ä½ ç‚¹å‡»çš„æ˜¯æ–‡æœ¬", 3000).show()  ;
 						}
 						
 					})  ;

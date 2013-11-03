@@ -15,7 +15,7 @@ public class GenericActivity extends Activity {
 	{
 		public void eatFood(T foodType,int foodCount)
 		{
-			Log.i(CommonConstants.LOGCAT_TAG_NAME, "ƒ„≥‘¡À£∫"+foodType.toString()+" "+foodCount+"∑›") ;
+			Log.i(CommonConstants.LOGCAT_TAG_NAME, "‰Ω†ÂêÉ‰∫ÜÔºö"+foodType.toString()+" "+foodCount+"‰ªΩ") ;
 		}
 	}
 	
